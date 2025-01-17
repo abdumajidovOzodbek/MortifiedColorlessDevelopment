@@ -21,16 +21,20 @@ function App() {
     // Calculate lengths between consecutive points
     const newLengths = [];
     for (let i = 0; i < updatedCoords.length - 1; i++) {
-      newLengths.push(calculateDistance(updatedCoords[i], updatedCoords[i + 1]));
+      newLengths.push(
+        calculateDistance(updatedCoords[i], updatedCoords[i + 1]),
+      );
     }
     setLengths(newLengths);
   };
 
   return (
     <div>
-      <h1>Coordinate Length Calculator</h1>
+      <h1>KOORDINATA HISOBLAGICH</h1>
       <InputForm onAddCoordinates={handleAddCoordinates} />
       <TableDisplay coordinates={coordinates} lengths={lengths} />
+      <div className="footer-text"><a href="https://t.me/abdumajidov_ozodbek"> MADE BY OZOD
+      </a></div>
     </div>
   );
 }

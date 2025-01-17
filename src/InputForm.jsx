@@ -30,11 +30,14 @@ function InputForm({ onAddCoordinates }) {
         rows="5"
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        placeholder={`Enter coordinates (e.g.):
-в точке  X=20180.3652  Y=76351.9184  Z=   0.0000`}
+        placeholder={`Koordinata kiritish (misol):
+       в точке  X=20180.3652  Y=76351.9184  Z=   0.0000
+       в точке  X=20180.3652  Y=76351.9184  Z=   0.0000
+       в точке  X=20180.3652  Y=76351.9184  Z=   0.0000
+       в точке  X=20180.3652  Y=76351.9184  Z=   0.0000`}
         className="input-textarea"
       ></textarea>
-      <button type="submit" className="submit-button">Add Coordinates</button>
+      <button type="submit" className="submit-button">HISOBLASH</button>
     </form>
   );
 }

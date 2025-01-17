@@ -40,7 +40,7 @@ function TableDisplay({ coordinates }) {
       {/* Button wrapped with a class to make it sticky */}
       <div className="download-button-wrapper">
         <button onClick={handleDownload} className="download-button">
-          Download Table as Image
+         RASM SIFATIDA YUKLAB OLISH
         </button>
       </div>
 
