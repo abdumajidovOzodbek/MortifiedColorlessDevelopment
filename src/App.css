@@ -9,6 +9,7 @@ body::before {
   background-image: url('https://static.vecteezy.com/system/resources/thumbnails/027/477/402/small_2x/technology-background-with-price-charts-used-to-measure-the-growth-profit-and-loss-of-the-company-illustration-blue-line-graph-bar-graph-behind-the-world-map-vector.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed; /* Makes the background fixed */
   filter: blur(8px); /* Adjust the blur radius as needed */
   z-index: -1; /* Ensures the background is behind other content */
 }
